@@ -3,7 +3,7 @@ import React from "react";
 /**
  * Props for the Example component.
  */
-interface ExampleProps {
+export interface ExampleProps {
   /**
    * The text to display.
    * @default "Hello, World!"
