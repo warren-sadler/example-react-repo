@@ -1,0 +1,17 @@
+{
+  "name": "example-react-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/warren-sadler/example-react-repo.git",
+  "keywords": [],
+  "author": "Warren Sadler <42621284+warren-sadler@users.noreply.github.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/warren-sadler/example-react-repo/issues"
+  },
+  "homepage": "https://github.com/warren-sadler/example-react-repo#readme"
+}
