@@ -1,18 +1,18 @@
-import React from "react";
+import React from 'react'
 
 /**
  * Props for the Example component.
  */
 export interface ExampleProps {
-  /**
-   * The text to display.
-   * @default "Hello, World!"
-   * @type {string}
-   * @memberof ExampleProps
-   * @public
-   * @required
-   */
-  message: string;
+    /**
+     * The text to display.
+     * @default "Hello, World!"
+     * @type {string}
+     * @memberof ExampleProps
+     * @public
+     * @required
+     */
+    message: string
 }
 /**
  *
@@ -20,12 +20,12 @@ export interface ExampleProps {
  * @returns
  */
 export const Example: React.FC<ExampleProps> = ({
-  message = "Hello, World!",
+    message = 'Hello, World!',
 }) => {
-  return (
-    <div>
-      <h2 data-testid="exampleHeader">Example component</h2>
-      <p data-testid="exampleMessage">{message}</p>
-    </div>
-  );
-};
+    return (
+        <div>
+            <h2 data-testid="exampleHeader">Example component</h2>
+            <p data-testid="exampleMessage">{message}</p>
+        </div>
+    )
+}

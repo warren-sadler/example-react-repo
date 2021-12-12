@@ -1,22 +1,22 @@
 {
-  "compilerOptions": {
-    "rootDir": "src",
-    "outDir": "dist",
-    "module": "ESNext",
-    "target": "ES5",
-    "declaration": true,
-    "jsx": "react",
-    "lib": ["DOM", "DOM.Iterable", "ESNext", "ES6"],
-    "sourceMap": true,
-    "moduleResolution": "Node",
-    "esModuleInterop": true,
-    "noImplicitAny": true,
-    "noImplicitReturns": true,
-    "strictFunctionTypes": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "strictNullChecks": true
-  },
-  "include": ["src", "__tests__/components/Example/Example.spec.tsx"],
-  "exclude": ["node_modules", "dist", "__tests__"]
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "dist",
+        "module": "ESNext",
+        "target": "ES5",
+        "declaration": true,
+        "jsx": "react",
+        "lib": ["DOM", "DOM.Iterable", "ESNext", "ES6"],
+        "sourceMap": true,
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "strictFunctionTypes": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strictNullChecks": true
+    },
+    "include": ["src", "__tests__/components/Example/Example.spec.tsx"],
+    "exclude": ["node_modules", "dist", "__tests__"]
 }

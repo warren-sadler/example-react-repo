@@ -1,6 +1,6 @@
-import { Config } from "@jest/types";
+import { Config } from '@jest/types'
 
 export default {
-  testEnvironment: "jest-environment-jsdom",
-  preset: "ts-jest",
-} as Config.InitialOptions;
+    testEnvironment: 'jest-environment-jsdom',
+    preset: 'ts-jest',
+} as Config.InitialOptions
