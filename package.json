@@ -11,7 +11,8 @@
     "test": "jest",
     "build": "rollup -c",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "prepare": "husky install"
   },
   "repository": "git+https://github.com/warren-sadler/example-react-repo.git",
   "keywords": [],
@@ -48,6 +49,7 @@
     "husky": "^7.0.4",
     "jest": "^27.4.4",
     "jest-junit": "^13.0.0",
+    "lint-staged": ">=10",
     "postcss": "^8.4.4",
     "prettier": "^2.5.1",
     "rollup": "^2.61.1",
@@ -62,5 +64,11 @@
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
+  },
+  "lint-staged": {
+    "*.{tsx,ts}": [
+      "eslint --cache --fix",
+      "jest"
+    ]
   }
 }
