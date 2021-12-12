@@ -17,6 +17,6 @@
     "noUnusedParameters": true,
     "strictNullChecks": true
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "dist"]
+  "include": ["src", "__tests__/components/Example/Example.spec.tsx"],
+  "exclude": ["node_modules", "dist", "__tests__"]
 }

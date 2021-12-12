@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "rollup -c"
   },
   "repository": "git+https://github.com/warren-sadler/example-react-repo.git",
   "keywords": [],
