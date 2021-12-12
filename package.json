@@ -2,7 +2,11 @@
   "name": "example-react-repo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index",
+  "typings": "dist/index.d",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "jest",
     "build": "rollup -c",
